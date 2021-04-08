@@ -7,7 +7,6 @@ function BillWithSettings(){
 
     var callCostTotal = 0;
     var smsCostTotal = 0;
-    var theTotalCost = 0;
 
     //SET CALL COST
     function getCallCost(){
