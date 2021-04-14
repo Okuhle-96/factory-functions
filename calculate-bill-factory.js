@@ -2,8 +2,7 @@ function calculateTotalPhoneBill(billString){
 
     var theBillTotal = 0;
 
-    var bill = billString.split(',');
-    
+    var bill = billString.split(','); 
     
     for(var i = 0; i < bill.length; i++){
 
@@ -18,6 +17,7 @@ function calculateTotalPhoneBill(billString){
             theBillTotal = theBillTotal += 2.75;
         }
     } 
-        return "R" + theBillTotal;
-    
+        
+        return theBillTotal;
+  
 }
